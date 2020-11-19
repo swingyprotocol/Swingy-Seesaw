@@ -425,7 +425,7 @@ pragma solidity 0.5.0;
  *      More background and motivation available at:
  *      https://github.com/ampleforth/RFCs/blob/master/RFCs/rfc-1.md
  */
-contract TokenGeyser is IStaking, Ownable {
+contract SwingySeesaw is IStaking, Ownable {
     using SafeMath for uint256;
 
     event Staked(address indexed user, uint256 amount, uint256 total, bytes data);
