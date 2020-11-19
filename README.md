@@ -7,7 +7,7 @@ A smart-contract based mechanism to distribute tokens over time, inspired loosel
 
 Implementation of [Continuous Vesting Token Distribution](https://github.com/ampleforth/RFCs/blob/master/RFCs/rfc-1.md)
 
-The official Geyser contract addresses are (by target):
+The official Seesaw contract addresses are (by target):
 - UniswapV2 [ETH/SWING] Pool: tbd
 
 ## Table of Contents
