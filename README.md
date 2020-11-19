@@ -1,7 +1,7 @@
 # Swingy Seesaw
 
 [![Build Status](https://travis-ci.com/ampleforth/token-geyser.svg?token=o34Gqy9mFp6fX3Y6jzyy&branch=master)](https://travis-ci.com/ampleforth/token-geyser)&nbsp;&nbsp;[![Coverage Status](https://coveralls.io/repos/github/ampleforth/token-geyser/badge.svg?branch=master&t=LdZfUk)](https://coveralls.io/github/ampleforth/token-geyser?branch=master)
-Used in conjunction with the Swingy token to reward SWING liquidity providers based off of current Uniswap prices.
+Forked from Ampleforth. Used in conjunction with the Swingy token to reward SWING liquidity providers based off of current Uniswap prices.
 
 A smart-contract based mechanism to distribute tokens over time, inspired loosely by Compound and Uniswap.
 
