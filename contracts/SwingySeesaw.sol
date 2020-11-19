@@ -525,29 +525,7 @@ contract SwingySeesaw is IStaking, Ownable {
     function setSwingyToken(address _SwingyToken) public onlyOwner {
         SwingyToken = _SwingyToken;
     }
-   
-    function setstartBonus(uint256 startBonus_) public onlyOwner {
-        startBonus = startBonus_;
-    }
-   
-    function setbonusPeriodSec(uint256 bonusPeriodSec_) public onlyOwner {
-        bonusPeriodSec = bonusPeriodSec_;
-       
-    }
-   
-    function setmaxUnlockSchedules(uint256 maxUnlockSchedules) public onlyOwner {
-       _maxUnlockSchedules = maxUnlockSchedules;
-       
-    }
-   
-    function setinitialSharesPerToken(uint256 initialSharesPerToken) public onlyOwner {
-       _initialSharesPerToken = initialSharesPerToken;
-   
-    }
-     
-     function setbonusDecimals(uint256 bonusDecimals) public onlyOwner {
-         BONUS_DECIMALS = bonusDecimals;
-    }
+
     /**
      * @return The token users deposit as stake.
      */
