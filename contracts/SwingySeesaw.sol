@@ -396,6 +396,7 @@ contract TokenPool is Ownable {
     function transfer(address to, uint256 value) external onlyOwner returns (bool) {
         return token.transfer(to, value);
     }
+
 }
 
 // File: contracts/TokenGeyser.sol
